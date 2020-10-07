@@ -28,21 +28,34 @@
       | :------: | :---------: |
       |  email   | s@gmail.com |
       | password |   123456    |
-      
-2. #### Login
    
+   output:
+   
+   ![signup](D:\crap\nodejs-passport\screenshots\signup.PNG)
+   
+4. #### Login
+
    1. POST - localhost:3000/login
-   
+
    2. body - x-www-form-urlencoded (Content-Type : application/x-www-form-urlencoded)
-   
-   
-      |   Key    |    Value    |
-      | :------: | :---------: |
-      |  email   | s@gmail.com |
-      | password |   123456    |
+
+
+   |   Key    |    Value    |
+   | :------: | :---------: |
+   |  email   | s@gmail.com |
+   | password |   123456    |
+
+
+
+​	output:
+
+![login](D:\crap\nodejs-passport\screenshots\login.PNG)
 
 
    3. #### Profile route (Secure-path) 
 
       1. GET - localhost:3000/user/profile?secret_token=< token returned from login >
-
+      
+         output:
+      
+         ![secure-route](D:\crap\nodejs-passport\screenshots\secure-route.PNG)

@@ -5,11 +5,17 @@ const bodyParser = require("body-parser");
 
 const UserModel = require("./model/userModel");
 
-mongoose.connect("mongodb://127.0.0.1:27017/passport-jwt", {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-  useCreateIndex: true,
-});
+mongoose.connect(
+  "mongodb://127.0.0.1:27017/passport-jwt",
+  {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useCreateIndex: true,
+  },
+  () => {
+    console.log("DB Connected");
+  }
+);
 mongoose.connection.on("error", (error) => console.log(error));
 mongoose.Promise = global.Promise;
 
