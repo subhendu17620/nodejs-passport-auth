@@ -31,25 +31,24 @@
    
    output:
    
-   ![signup](D:\crap\nodejs-passport\screenshots\signup.PNG)
+   ![signup](https://github.com/subhendu17620/nodejs-passport-auth/blob/main/screenshots/signup.PNG)
    
-4. #### Login
+   2. #### Login
 
-   1. POST - localhost:3000/login
+      1. POST - localhost:3000/login
 
-   2. body - x-www-form-urlencoded (Content-Type : application/x-www-form-urlencoded)
+      2. body - x-www-form-urlencoded (Content-Type : application/x-www-form-urlencoded)
 
 
-   |   Key    |    Value    |
-   | :------: | :---------: |
-   |  email   | s@gmail.com |
-   | password |   123456    |
-
+      |   Key    |    Value    |
+      | :------: | :---------: |
+      |  email   | s@gmail.com |
+      | password |   123456    |
 
 
 ​	output:
 
-![login](D:\crap\nodejs-passport\screenshots\login.PNG)
+   ![login](https://github.com/subhendu17620/nodejs-passport-auth/blob/main/screenshots/login.PNG)
 
 
    3. #### Profile route (Secure-path) 
@@ -58,4 +57,4 @@
       
          output:
       
-         ![secure-route](D:\crap\nodejs-passport\screenshots\secure-route.PNG)
+         ![secure-route](https://github.com/subhendu17620/nodejs-passport-auth/blob/main/screenshots/secure-route.PNG)
